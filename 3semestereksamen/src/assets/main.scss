@@ -628,7 +628,7 @@ footer{
         a{
             text-decoration: none;
             &:hover{
-                text-decoration: underline;
+                
                 color: c.$fontcolor-primary;
             }
         }
@@ -745,7 +745,7 @@ button {
             
         }
 
-        #menu-items-mobile {
+        #menu-items-mobile, .mobil-links {
             display: none;
         }
 
@@ -1117,6 +1117,10 @@ button {
         button {
             margin-top: 20px;
         }
+
+        .pointer:hover {
+            cursor: pointer;
+        }
     }
 
     .kunstner-quadruple {
@@ -1283,7 +1287,7 @@ button {
         a{
             text-decoration: none;
             &:hover{
-                text-decoration: underline;
+                
                 color: c.$fontcolor-primary;
             }
         }

@@ -16,8 +16,8 @@ import FooterBottom from '@/components/FooterBottom.vue';
     <div class="kategoriproduktright">
         <div class="kategoriprodukt-beskrivelse">
             <div class="tekst">
-                <h2>Farvet krus</h2>
-                <p>Lavet af<b> CLip Clap</b></p>
+                <h2>Flerfarvet krus</h2>
+                <p>Lavet af<b> Clip Klap</b>. Dette krus er lavet af stentøj. Kan fås i flere farver.</p>
                 <p>275 kr</p>
             </div>
         </div>
@@ -31,7 +31,7 @@ import FooterBottom from '@/components/FooterBottom.vue';
             <div class="tekst">
                 <h2>Espressokop i sort</h2>
                 <p>Lavet af<b> Mia Maya</b>. Denne kop er lavet i indfarvet stentøj. Tåler opvaskemaskine og mikrobølgeovn.</p>
-                <p>275 kr</p>
+                <p>265 kr</p>
             </div>
         </div>
         <div class="kategoriprodukt-billede">
@@ -42,8 +42,8 @@ import FooterBottom from '@/components/FooterBottom.vue';
         <div class="kategoriprodukt-beskrivelse">
             <div class="tekst">
                 <h2>Grå bundrillet kop</h2>
-                <p>lavet af<b> Christina Friis</b>. Denne kop er lavet i indfarvet stentøj. Tåler opvaskemaskine og mikrobølgeovn.</p>
-                <p>275 kr</p>
+                <p>Lavet af<b> Christina Friis</b>. Denne serie af kopper er lavet på drejebænken. Kan fås i flere farver.</p>
+                <p>300 kr</p>
             </div>
         </div>
         <div class="kategoriprodukt-billede">

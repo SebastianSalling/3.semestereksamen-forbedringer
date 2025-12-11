@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, onBeforeMount, onBeforeUnmount } from 'vue';
 
 const toggle = ref(false);
 const dropdown = ref(null);
@@ -21,6 +21,11 @@ function clickOutside(klik) {
 onMounted( () => {
     window.addEventListener("click", clickOutside);
 });
+
+onBeforeUnmount(() => {
+    window.removeEventListener("click", clickOutside);
+});
+
 
 </script>
 
@@ -104,6 +109,13 @@ onMounted( () => {
                 <li class="kategori-link">Flag og ranker</li><hr class="divider-line">
                 <li class="kategori-link">Kort og gavekort</li><hr class="divider-line">
             </ul>
+            <ul class="dropdown-kategori mobil-links">
+                <li class="kategori-navn">Arrangementer</li>
+                <li class="kategori-navn"><router-link to="/kunstnere">Kunstnere</router-link></li>
+                <li class="kategori-navn">Galleri RUMMET</li>
+                <li class="kategori-navn"><router-link to="/omos">Om os</router-link></li>
+            </ul>
+
         </div>
     </nav>
     

@@ -40,7 +40,7 @@ import galleriRummet from '@/assets/images/butik/galleri-rummet.jpg';
       <p class="paragraf">Vi samarbejder med en lang række af kunstnere over hele landet. Når Dina Vejling skal hente nye 
         værker med hjem, tager hun ud til kunstnerne på deres værksteder og ser, hvordan de arbejder. Kunstnerne er professionelt 
         uddannet enten på designskoler, kunstakademiet eller tilsvarende rundt om i landet.</p>
-      <button>SE KUNSTNERE</button>
+      <router-link to="/kunstnere"><button class="pointer">SE KUNSTNERE</button></router-link>
     </div>
     <div class="kunstner-quadruple">
       <img src="../assets/images/kunstnere/akiko-og-ken.jpg" alt="Akiko og Ken">
