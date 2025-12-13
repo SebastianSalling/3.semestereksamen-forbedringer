@@ -186,6 +186,7 @@ nav {
         bottom: 10px;
         right: 20px;
         z-index: 11;
+
         button{ 
             background: none;
             padding: 15px 15px;
@@ -199,10 +200,14 @@ nav {
 
 // side intro
 .landingpagesection{
-    width: 325px;
     display: flex;
     flex-direction: column;
-    margin: 40px auto;
+    width: 75%;
+    margin: 50px auto;
+
+    p{
+        margin-top: 20px;
+    }
 }
 
 // her kommer åbningstider
@@ -211,9 +216,11 @@ nav {
     display: flex;
     flex-direction: column;
     margin: 40px auto;
+
     h4{
         padding: 5px 0px;
     }
+
     .kontaktoplysninger{
         margin: 20px 0px;
     }
@@ -224,9 +231,12 @@ nav {
 
     }
 }
+
 // her er dividerimage
-.dividerimage{
+
+.dividerimage {
     color: red;
+
     img{
         height: 100px;
         width: 100%;
@@ -237,50 +247,77 @@ nav {
 
     // her kommer arrangementer
 
-.arrangementsection{
+.arrangementsection {
     width: 325px;
     display: flex;
     flex-direction: column;
     margin: 20px auto;
-    .row{
+
+    .row {
         margin-top: -20px;
-        .individualarrangements{
-            margin: 50px 0px;
-            .arrangementbillede{
-                height: 200px;
+
+        .individualarrangements {
+            margin: 60px 0px;
+            max-width: 300px;
+
+            .arrangementbillede {
+                height: 300px;
+                width: 300px;
+                
                 object-fit: cover;
                 overflow: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center ;
+
+                    img {
+                        
+                        width: 500px;
+                        
+                    }
+            }
+
+            .sussie {
+                justify-content: center;
+                align-items: start ;
+
                 img {
-                    width: 100%;
+                    width: 400px;
                 }
             }
-            p{
+
+            p {
                 padding: 10px 0px;
             }
+
+            
         }
     }
 }
 
     // her kommer karussel
 
-.carruselsection{
+.carruselsection {
     width: 325px;
     display: flex;
     flex-direction: column;
     margin: 20px auto;
-    .kunstnere{
+
+    .kunstnere {
         display: flex;
         justify-content: space-between;
         margin-top: 40px;
         margin-bottom: 40px;
         justify-content: center;
-        ul{
+
+        ul {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
-        button{
+
+        button {
             display: flex;
             justify-content: center;
             background-color: c.$backgroundcolor-primary;
@@ -288,10 +325,12 @@ nav {
             rotate: 90deg;
             width: 50px;
         }
-        li{
+
+        li {
             list-style: none;
             padding: 100px;
             margin: 10px;
+            min-width: 100px;
             max-width: 275px;
             background: rgba($color: #000, $alpha: 0.2);
         }
@@ -870,8 +909,9 @@ button {
 }
 
     .landingpagesection{
-        width: 90%;
-        margin: 110px auto 100px auto;
+        width: 75%;
+        margin: 100px auto 125px auto;
+
         p{
             margin-top: 30px;
         }
@@ -883,17 +923,21 @@ button {
         justify-content: space-between;
         width: 90%;
         margin: 150px auto;
+
         .grouping{
-            color: red;
+            min-width: 300px;
+            max-width: 500px;
+
             button{
-                
                 margin: 20px 0px;
                 padding: 20px;
-            }
+            }  
         }
-        img{
-                width: 650px;
-                height: auto;
+
+        img {
+            min-width: 300px;
+            max-width: 650px;
+            height: 100%;
         } 
     }
 
@@ -909,7 +953,7 @@ button {
     .dividerimage{
         color: red;
         img{
-            height: 200px;
+            height: 250px;
             width: 100%;
             object-fit: cover;
         }
@@ -924,20 +968,37 @@ button {
         .row{
             display: flex;
             flex-wrap: wrap;
-            margin: 40px 0px 20px 0px;
+            margin: 20px 0px 0px 0px;
+            justify-content: space-between;
 
             .individualarrangements{
-                width: 400px;
+                max-width: 340px;
+
                 display: flex;
                 flex-direction: column;
-                margin: 20px auto;
+                margin: 20px 0;
+                
+
                 .arrangementbillede {
-                    height: 245px;
+                    height: 340px;
+                    width: 340px;
+
+                    img {
+                        width: 570px;
+                    }
                 }
 
                 p{
                     padding: 20px 0px;
                 }
+
+                .sussie {
+
+                    img {
+                        width: 500px;
+                    }
+                }
+
             }
         }
     }
@@ -954,7 +1015,7 @@ button {
             background-color: c.$backgroundcolor-primary;
             display: flex;
             justify-content: space-between;
-            margin-top: 80px;
+            margin-top: 50px;
             margin-bottom: 40px;
 
             ul{

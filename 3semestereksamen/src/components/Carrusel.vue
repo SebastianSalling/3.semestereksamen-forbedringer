@@ -56,8 +56,8 @@ const prev = () => {
 getKunstner();
 </script>
 <template>
-    <div class="carruselsection">
-        <h1>Populære Kunstnere</h1>
+    <div class="carruselsection section-wrapper">
+        <h2>POPULÆRE KUNSTNERE</h2>
         <div class="overmarging"><p>Kom ned i butikken og spørg ind til kunstnerne samt processen bag deres værker.</p></div>
         <div class="kunstnere">
             <ul v-if="kunstner.length > 0">
