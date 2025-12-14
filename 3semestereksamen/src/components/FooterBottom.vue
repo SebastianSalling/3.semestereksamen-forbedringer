@@ -31,8 +31,8 @@
                         <li><router-link to="/omos">Om Dina Vejling</router-link></li>
                         <li>Handelsbetingelser</li>
                         <li>Galleri Rummet</li>
-                        <li>Arrengementer</li>
-                        <li>Kunstnere</li>
+                        <li>Arrangementer</li>
+                        <li><router-link to="/kunstnere">Kunstnere</router-link></li>
                     </ul>
                 </div>
             </div>

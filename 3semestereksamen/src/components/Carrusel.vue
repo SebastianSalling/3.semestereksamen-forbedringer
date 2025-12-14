@@ -58,7 +58,8 @@ getKunstner();
 <template>
     <div class="carruselsection section-wrapper">
         <h2>POPULÆRE KUNSTNERE</h2>
-        <div class="overmarging"><p>Kom ned i butikken og spørg ind til kunstnerne samt processen bag deres værker.</p></div>
+        <div class="overmarging"><p>Læs mere om vores fantastiske kunstnere og se, hvordan de arbejder, eller kom ned i butikken og og spørg os,
+            hvis du er interesseret i at vide mere.</p></div>
         <div class="kunstnere">
             <ul v-if="kunstner.length > 0">
                 <button v-on:click="prev"><font-awesome-icon icon="fa-solid fa-chevron-left" class="fa-2x"/></button>

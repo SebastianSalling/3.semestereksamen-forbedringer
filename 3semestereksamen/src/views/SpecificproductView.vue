@@ -13,7 +13,7 @@ import Navbar from '@/components/Navbar.vue';
 
     <div class="produkt-info-billeder produkt-section-wrapper hidden-on-desktop">
         <div class="produkt-info">
-            <h1>Flerfarvet krus</h1>
+            <h1>FLERFARVET KRUS</h1>
             <p class="produkt-af">Af Clip Klap</p>
             <p class="produkt-pris">275 kr.</p>
         </div>
@@ -49,7 +49,7 @@ import Navbar from '@/components/Navbar.vue';
             </div>
             <div class="produkt-tekst-container">
                 <div class="produkt-info">
-                    <h1>Flerfarvet krus</h1>
+                    <h1>FLERFARVET KRUS</h1>
                     <p class="produkt-af">Af Clip Klap</p>
                     <p class="produkt-pris">275 kr.</p>
                 </div>
@@ -80,7 +80,7 @@ import Navbar from '@/components/Navbar.vue';
     </div>
 
     <div class="produkt-kunstner-info produkt-section-wrapper">
-        <h2>Om kunstneren</h2>
+        <h2>OM KUNSTNEREN</h2>
         <p>Clip Klap er navnet på kunstnerduen bestående af Claire Maria Lehmann og Iben Harboe. De har arbejdet 
             sammen siden 2003, hvor de skabte deres første værk sammen, nemlig en tepotte. Clip Klap begynder 
             altid deres projekter med en definition i ord. Derved fortælles der en historie i form, materiale 
@@ -91,7 +91,7 @@ import Navbar from '@/components/Navbar.vue';
     </div>
 
     <div class="andre-produkter produkt-section-wrapper">
-        <h2>Andre produkter af samme kunstner</h2>
+        <h2>ANDRE PRODUKTER AF SAMME KUNSTNER</h2>
         <div class="andre-produkter-karrusel">
             <font-awesome-icon icon="fa-solid fa-chevron-left arrows" />
             <div class="andre-produkter-billede-container">

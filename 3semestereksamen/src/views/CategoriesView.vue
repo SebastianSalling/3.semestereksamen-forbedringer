@@ -9,14 +9,15 @@ import FooterBottom from '@/components/FooterBottom.vue';
     <h1 class="hero-text">Krus og kopper</h1>
   </div>
 <div class="section-wrapper">
-    <h2>Se udvalget af Krus og kopperne herunder</h2>
-    <p>De keramiske krus og kopper er hos os speciallavet kunsthåndværk, flere forskellige slags kan ses an i butikken</p>
+    <h2 class="heading">SE VORES UDVALG AF KRUS OG KOPPER</h2>
+    <p class="paragraf">Tag et kig på vores krus og kopper. Alle produkterne er unikke, da de er lavet i hånden, og der vil derfor være 
+        variation i hvert enkelt kunsthåndværk. Det er ikke alle varer, der er præsenteret her, så kom også ned i butikken og gå på opdagelse.</p>
 <div class="kategoriprodukter">
     <router-link to="/specifikprodukt">
     <div class="kategoriproduktright">
         <div class="kategoriprodukt-beskrivelse">
             <div class="tekst">
-                <h2>Flerfarvet krus</h2>
+                <h2>FLERFARVET KRUS</h2>
                 <p>Lavet af<b> Clip Klap</b>. Dette krus er lavet af stentøj. Kan fås i flere farver.</p>
                 <p>275 kr</p>
             </div>
@@ -29,7 +30,7 @@ import FooterBottom from '@/components/FooterBottom.vue';
     <div class="kategoriproduktleft">
         <div class="kategoriprodukt-beskrivelse">
             <div class="tekst">
-                <h2>Espressokop i sort</h2>
+                <h2>ESPRESSOKOP I SORT</h2>
                 <p>Lavet af<b> Mia Maya</b>. Denne kop er lavet i indfarvet stentøj. Tåler opvaskemaskine og mikrobølgeovn.</p>
                 <p>265 kr</p>
             </div>
@@ -41,7 +42,7 @@ import FooterBottom from '@/components/FooterBottom.vue';
     <div class="kategoriproduktright">
         <div class="kategoriprodukt-beskrivelse">
             <div class="tekst">
-                <h2>Grå bundrillet kop</h2>
+                <h2>GRÅ BUNDRILLET KOP</h2>
                 <p>Lavet af<b> Christina Friis</b>. Denne serie af kopper er lavet på drejebænken. Kan fås i flere farver.</p>
                 <p>300 kr</p>
             </div>

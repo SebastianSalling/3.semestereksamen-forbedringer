@@ -8,9 +8,9 @@
                 <div class="arrangementbillede">
                     <img src="../assets/julelys.webp" alt="">
                 </div>
-                <p><b>14. November kl.17</b></p>
+                <p><b>14. November kl. 17</b></p>
                 <h3>Kom og tænd julelys i Hjertet af Odense</h3>
-                <p>julelyset tændes i Passagen. Hygge, fællesang og madboder. Kom i god tid til nedtællingen.</p>
+                <p>Julelyset tændes i Passagen. Hygge, fællesang og madboder. Kom i god tid til nedtællingen.</p>
             </div>
             <div class="individualarrangements">
                 <div class="arrangementbillede">

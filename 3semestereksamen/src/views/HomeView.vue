@@ -56,8 +56,12 @@ const haandterPause = () => (afspillerVideo.value = false);
 
   <div class="landingpagesection">
     <h1>DANSK KUNSTHÅNDVÆRK MED SJÆL</h1>
-    <p>Hos Dina Vejling kan du gå på opdagelse i en verden af unikke håndplukkede værker fra over 70 professionelle kunstnere. Find os i Brandts passage i latinerkvateret i Odense.</p>
+    <p>Hos Dina Vejling kan du gå på opdagelse i en verden af unikke håndplukkede værker fra over 70 professionelle kunstnere. Vi 
+      sælger kunsthåndværk af høj kvalitet produceret over hele Danmark, og vi har alt fra keramik, glas og snedkeri til smykker, 
+      hornvarer, tekstiler og meget mere. Her på siden finder du et stort katalog af kunsthåndværk, men vi har endnu mere i vores butik. 
+      Så kom ned og besøg os i Brandts Passage i Odense!</p>
   </div>
+  <hr class="homepage-border">
   <div class="aabningstidersection section-wrapper">
     <div class="grouping">
       <h2>ÅBNINGSTIDER</h2>
@@ -66,8 +70,9 @@ const haandterPause = () => (afspillerVideo.value = false);
       <h4>Lørdag: 10.30 - 14.00</h4>
       <h4>Søndag: Lukket</h4>
       <div class="kontaktoplysninger">
-        <p>Dina Vejling - Dansk Kunsthåndværk</p><br>
-        <p>Brandts passage 30, 5000 Odense C</p>
+        <p>Dina Vejling - Dansk Kunsthåndværk</p>
+        <p><font-awesome-icon icon="fa-solid fa-location-dot" /> Brandts Passage 30, 5000 Odense C</p>
+        <p><font-awesome-icon icon="fa-solid fa-envelope" /> info@dinavejling.dk</p>
         <p><font-awesome-icon icon="fa-solid fa-phone" /> +45 28 30 14 05</p>
       </div>
       <button><font-awesome-icon icon="fa-solid fa-location-dot" class="fa-lg"/> FIND BUTIKKEN PÅ KORT</button>
@@ -81,6 +86,7 @@ const haandterPause = () => (afspillerVideo.value = false);
 <img src="../assets/markus-winkler-JZyHRn8Cq3k-unsplash.webp" alt="">
 </div>
   <Arrangement/>
+  <hr class="homepage-border">
   <Carrusel/>
   <FooterBottom/>
 </template>
