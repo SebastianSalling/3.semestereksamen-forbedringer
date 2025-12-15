@@ -62,13 +62,13 @@ const haandterPause = () => (afspillerVideo.value = false);
       Så kom ned og besøg os i Brandts Passage i Odense!</p>
   </div>
 
-  <hr class="homepage-border">
+ 
   <div class="aabningstidersection section-wrapper">
     <div class="grouping">
       <h2>ÅBNINGSTIDER</h2>
       <h4>Mandag - torsdag: kl. 11.00 - 17.30</h4>
       <h4>Fredag: kl. 11.00 - 18.00</h4>
-      <h4>Lørdag: 10.30 - 14.00</h4>
+      <h4>Lørdag: kl. 10.30 - 14.00</h4>
       <h4>Søndag: Lukket</h4>
       <div class="kontaktoplysninger">
         <p>Dina Vejling - Dansk Kunsthåndværk</p>
@@ -87,7 +87,7 @@ const haandterPause = () => (afspillerVideo.value = false);
 <img src="../assets/markus-winkler-JZyHRn8Cq3k-unsplash.webp" alt="">
 </div>
   <Arrangement/>
-  <hr class="homepage-border">
+  
   <Carrusel/>
   <FooterBottom/>
 </template>

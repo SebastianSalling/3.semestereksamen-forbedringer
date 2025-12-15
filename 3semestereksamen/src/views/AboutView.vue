@@ -27,7 +27,7 @@ import galleriRummet from '@/assets/images/butik/galleri-rummet.jpg';
       mange år siden. På den måde forbinder Dina Vejling - Dansk Kunsthåndværk sig til det historiske, 
       hvilket er noget, som vi er meget stolte af.</p>
     <div class="image-wrapper left image-border-desktop">
-      <ImageBorder :src="butikIndenfor" alt="" width="700px" border="8px"/>
+      <ImageBorder :src="butikIndenfor" alt="" width="700px" border="6px"/>
     </div>
     <div class="image-wrapper left image-border-mobile">
       <ImageBorder :src="butikIndenfor" alt="" width="300px" border="4px"/>
@@ -87,7 +87,7 @@ import galleriRummet from '@/assets/images/butik/galleri-rummet.jpg';
 
   <div class="section-wrapper section-dual">
     <div class="image-border-desktop">
-      <ImageBorder :src="butikIndenfor" alt="" width="500px" border="8px"/>
+      <ImageBorder :src="butikIndenfor" alt="" width="500px" border="6px"/>
     </div>
     <div class="image-border-mobile">
       <ImageBorder :src="butikIndenfor" alt="" width="200px" border="4px"/>
@@ -109,7 +109,7 @@ import galleriRummet from '@/assets/images/butik/galleri-rummet.jpg';
       <button>SE GALLERI RUMMET</button>
     </div>
     <div class="image-border-desktop">
-      <ImageBorder :src="galleriRummet" alt="" width="500px" border="8px"/>
+      <ImageBorder :src="galleriRummet" alt="" width="500px" border="6px"/>
     </div>
     <div class="image-border-mobile">
       <ImageBorder :src="galleriRummet" alt="" width="200px" border="4px"/>
