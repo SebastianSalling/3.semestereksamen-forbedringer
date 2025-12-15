@@ -61,6 +61,7 @@ const haandterPause = () => (afspillerVideo.value = false);
       hornvarer, tekstiler og meget mere. Her på siden finder du et stort katalog af kunsthåndværk, men vi har endnu mere i vores butik. 
       Så kom ned og besøg os i Brandts Passage i Odense!</p>
   </div>
+
   <hr class="homepage-border">
   <div class="aabningstidersection section-wrapper">
     <div class="grouping">

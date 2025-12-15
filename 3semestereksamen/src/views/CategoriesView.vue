@@ -32,7 +32,7 @@ import FooterBottom from '@/components/FooterBottom.vue';
             <div class="tekst">
                 <h2>ESPRESSOKOP I SORT</h2>
                 <p>Lavet af<b> Mia Maya</b>. Denne kop er lavet i indfarvet stentøj. Tåler opvaskemaskine og mikrobølgeovn.</p>
-                <p>265 kr</p>
+                <p>185 kr</p>
             </div>
         </div>
         <div class="kategoriprodukt-billede">

@@ -8,7 +8,7 @@ const kunstnerLoaded = ref(false)
 const getKunstner = async () => {
     if (kunstnerLoaded.value) return;
     try{
-        const res = await fetch('https://semestereksamen-85cb6-default-rtdb.europe-west1.firebasedatabase.app/kunstner.json',{
+        const res = await fetch('https://semesterforbedringerdatabase-default-rtdb.europe-west1.firebasedatabase.app/kunstnere.json',{
         method: 'GET',
         });
 
@@ -64,8 +64,12 @@ getKunstner();
             <ul v-if="kunstner.length > 0">
                 <button v-on:click="prev"><font-awesome-icon icon="fa-solid fa-chevron-left" class="fa-2x"/></button>
                 <li v-for="kunstnerData in synligeKunstnere" :key="kunstnerData">
-                    <p>{{ kunstnerData.Kunstnernavn }}</p>
-                    <p>{{ kunstnerData.Profession }}</p>
+                    <div class="kunstertekst-carrusel">
+                        <p>{{ kunstnerData.Kunstnernavn }}</p>
+                        <p>{{ kunstnerData.Profession }}</p>
+                    </div>
+                    
+                    <img :src="kunstnerData.Billede" alt="">
                 </li>
                 <button v-on:click="next"><font-awesome-icon icon="fa-solid fa-chevron-right" class="fa-2x"/></button>
             </ul>
